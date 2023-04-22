@@ -1,0 +1,36 @@
+article{
+	background-color: #ca1f1f;
+	float: left; 
+	margin: 0.5%;
+	padding: 0.5%; 
+	text-align: center;
+	width: 31%;
+    transition: 0.4s;
+  }
+     
+  main article p {
+	color: #000000;
+	margin-top: 2%;
+	padding: 1%;
+	text-align: left;
+
+  }
+
+  article:hover{
+    transform: translate(0px, -8px);
+  }
+  main article ul{
+	text-align: left;
+  }
+  aside{
+	background-color: #FFFFFF;
+	border-radius: 6em 6em 6em 6em;
+	box-shadow: 1em 1em 1em #3e3e3e; 
+	padding: 1.5em; 
+	margin: 1em;
+  }
+  h1{
+    color: #080808;
+    font-style: italic;
+   
+  }

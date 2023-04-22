@@ -1,0 +1,92 @@
+/* Style sheet created by: kaviya vijayakumar Dec 11,2022*/
+aside {
+    font-style:italic;
+}
+
+.about {
+    display: none;
+}
+
+.alignment {
+        width: 98%;
+         
+    }
+    .hycool {
+        display: inline;
+        float: left;
+        margin-right: 1.5em;
+        width: 650px;
+        height: 450px;
+           }
+    .percentage{
+        display: inline;
+        float: left;
+        margin-right: 1.5em;
+        width: 750px;
+        height:350px;
+        padding-top:5%;
+
+    }
+    
+    
+     h1 {
+        text-align: center;
+        text-shadow: #c5d7cb;
+    }
+        
+    .tablet {
+        display: block;
+        margin-top: -3em;
+        margin-bottom: -1em;
+    }
+
+    section {
+        padding-bottom: 5em;
+    }
+
+    section h1 {
+        text-align: left;
+        font-style:italic;
+        
+        
+    }
+    .page {
+
+        text-align: center;
+    }
+
+    .contact {
+        background-color:gray;
+        color: #1d1d1c;
+        padding: 2em;
+        text-decoration: underline;
+        background-size: 50%;
+        text-align: left;
+        
+    }
+     
+    aside{
+        background-color: rgb(244, 70, 70);
+        border-radius: 2em 2em 2em 2em;
+        box-shadow: 1em 1em 1em #4c4f4d;
+        padding: 2em;
+        margin: 1em;
+        
+    }
+     
+    
+     h1 {
+        color: #FFFFFF;
+    }
+    .hide {
+        display: none;
+      }
+      
+
+     
+
+    
+
+    
+    
+    

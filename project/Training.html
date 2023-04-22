@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<!-- This template was created by kaviya vijayakumar, dec 11,2022.-->
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <title>Delson Dryers Private Ltd</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <div id="container">
+       <header>
+        <a href="index.html"><img src="images/logo.png" alt="Delson Dryers Private Ltd"> </a>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html"> Home </a></li>
+            <li><a href="about.html"> About</a></li>
+            <li><a href="teams.html">Our Teams</a></li>                          
+            <li><a href="Specials.html">Specials</a></li>
+            <li><a href="Training.html">Training</a></li>
+            <li><a href="Media.html">Media </a></li>
+            <li><a href="contact.html">Contact Us </a></li>
+                </div>
+              </li>
+        </ul>
+        </nav>
+        
+        <div class="mobile">
+
+                      
+        </div>
+        <main>      
+          
+            <table id="schedule">                
+                <tr>
+                    <th>Name</th>
+                    <th>Title</th>
+                    <th>Department</th>
+                    <th>Bio</th>
+                </tr>
+                <tr> 
+                    <td>christina</td>
+                    <td>Executive</td>
+                    <td>Delson Dryers Association.</td>
+                    <td>Sets standards ,supervises a departments operations.</td>
+                     </tr>
+                   <tr>
+                     <td>Brado</td>
+                    <td>Leader</td>
+                    <td>Delson Dryers Association.</td>
+                    <td> Acknowledges the good conduct and trains new hires.</td>
+                   </tr> <tr>  <td>siddarth</td>
+                    <td>sales markerter</td>
+                    <td>Delson Dryers Association.</td>
+                    <td>creates awareness against competitors and industry trends.</td>
+                        </tr><tr><td>Gladson</td>
+                    <td>Associate</td>
+                    <td>Delson Dryers Association.</td>
+                    <td>takes care of the products on sale and staffs schedule
+
+                     </tr>
+                     <tr>
+                        <td>Julie</td>
+                    <td>Dryer operator</td>
+                    <td>Delson Dryers Association.</td>
+                    <td>takes care of technical issues</td>
+                    </tr>
+                        <tr>
+                            <td>Joe</td>
+                    <td>cleaner</td>
+                    <td>Delson Dryers Association.</td>
+                    <td>cleans and mops the floor.</td>
+                    </tr>
+                    <tr>
+                        <td>Gautham</td>
+                    <td>Cashier</td>
+                    <td>Delson Dryers Association.</td>
+                    <td>stands at the cashier counter and attend customer.</td>
+                        </tr>
+                        <tr>
+                            <td>Andrea</td>
+                    <td>manager</td>
+                    <td>Delson Dryers Association.</td>
+                    <td>Maintain teh schedules of workers</td>
+                        </tr> <tr>
+                            <td>Ela</td>
+                    <td>Merachandiser</td>
+                    <td>Delson Dryers Association.</td>
+                    <td>Sales the products.</td>  
+                    </tr>
+                <tr> 
+                        <td>Suve</td>
+                    <td>Recruiter</td>
+                    <td>Delson Dryers Association.</td>
+                    <td>Hires employees based on the requirements.</td>
+                       </tr> 
+                       <tr><td>Jim</td>
+                    <td>clerk</td>
+                    <td>Delson Dryers Association.</td>
+                    <td>Arranges the products according to id numbers.</td>
+                       </tr><tr> <td>Rahul</td>
+                    <td>Officer</td>
+                    <td>Delson Dryers Association.</td>
+                    <td>incharge of money,products</td>
+                        <tr>
+                            <td>Adam</td>
+                    <td>Security Guard</td>
+                    <td>Delson Dryers Association.</td>
+                    <td>Incharge of the shop </td>
+                    </tr>
+                        <td>Frank</td>
+                    <td>electrician</td>
+                    <td>Delson Dryers Association.</td>
+                    <td>Maintains and repairs the electrical parts.</td>
+                    </tr>
+                    <tr>
+                        <td>Silvia</td>
+                    <td>recepitonist</td>
+                    <td>Delson Dryers Association.</td>
+                    <td>Attends calls .</td>
+                    </tr>
+                    <tr>
+                        <td>Krish</td>
+                    <td>Customer representative</td>
+                    <td>Delson Dryers Association.</td>
+                    <td>Attends customers.</td>
+                    </tr>
+                    <tr>
+                        <td>Kavyaa</td>
+                    <td>invigilator</td>
+                    <td>Delson Dryers Association.</td>
+                    <td>incharge of checking everything.</td>
+                                           
+                </tr>
+                </table>
+                <script>
+                    $(document).ready(function(){
+                        $.ajax({
+                            url:"employee.json",
+                            dataType:"json",
+                            success:function(data){
+                                $(data.employees).each(function(index,value){
+                                    var record = "<tr><td>"+value.name+"</td><td>"+
+                                        value.title+"</td><td>"+value.department+"</td><td>"+value.bio+"</td></tr>";
+                                    $("#schedule").append(record);
+                                });
+                            }
+                        });
+                    });
+                </script>
+                                    
+    </main>
+         <footer>
+            &copy; Copyright 2022. All Rights Reserved. <br>
+            Request information <ahref="mailto:info@delsondryers.com"></a><br>
+            kaviya vijayakumar &nbsp;&nbsp; C0805215
+        </footer>
+    </div>
+</body>
+
+</html>

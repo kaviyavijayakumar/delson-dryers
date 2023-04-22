@@ -1,0 +1,22 @@
+{
+    "employees": [
+      {
+        "name": "christina",
+        "title": "CEO",
+        "department": "delson dryers assosciation",
+        "bio": "Sets standards ,supervises a departments operations."
+      },
+      {
+        "name": "Brado",
+        "title": "delson dryers assosciation",
+        "department": "leader",
+        "bio": "Acknowledges the good conduct and trains new hires."
+      },
+      {
+        "name": "Siddarth",
+        "title":"delson dryers assosciation",
+        "department": "Marketer",
+        "bio":"siddarth started in 2022."
+      }      
+    ]
+  }

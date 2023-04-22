@@ -1,0 +1,113 @@
+    <!DOCTYPE html>
+    <!-- This template was created by kaviya vijayakumar, dec 11,2022.-->
+    <html lang="en">
+
+    <head>
+        <link rel="stylesheet" href="CSS/styles.css">
+        <title>Delson Dryers Private Ltd</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="http://code.jquery.com/jquery-3.6.0.min.js"></script>	 
+        <script src="js/jquery.highlight.js"></script>
+        <script src="js/menu.js"></script> 
+    </head>
+
+    <body>
+        <div id="container">
+            <header>
+                <a href="index.html"><img src="images/logo.png"alt="Delson Dryers Private Ltd"> </a>
+            </header>
+        <nav>
+                <ul>
+                    <li><a href="index.html"> Home </a></li>
+            <li><a href="about.html"> About</a></li>
+            <li><a href="teams.html">Our Teams</a></li>                                 
+            <li><a href="Specials.html">Specials</a></li>
+            <li><a href="Training.html">Training</a></li>
+            <li><a href="Media.html">Media </a></li>
+            <li><a href="contact.html">Contact Us </a></li>
+                </div>
+              </li>
+            </ul>
+            </nav>             
+            <main>
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade">
+                      <div class="numbertext">1 / 6</div>
+                      <img src="images/picture2.jpg" style="width:100%">
+                      <div class="text">Our Product gallery slideshow</div>
+                    </div>
+                    
+                    <div class="mySlides fade">
+                      <div class="numbertext">2 / 6</div>
+                      <img src="images/box.jpg" style="width:100%">
+                      <div class="text">Our Product gallery slideshow</div>
+                    </div>
+                    
+                    <div class="mySlides fade">
+                      <div class="numbertext">3 / 6</div>
+                      <img src="images/picture4.jpg" style="width:100%">
+                      <div class="text">Our Product gallery slideshow</div>
+                    </div>
+                    
+                    <div class="mySlides fade">
+                        <div class="numbertext">4 / 6</div>
+                        <img src="images/Redthumbsup.png" style="width:100%">
+                        <div class="text">Our Product gallery slideshow</div>
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">2 / 6</div>
+                        <img src="images/box.jpg" style="width:100%">
+                        <div class="text">Our Product gallery slideshow</div>
+                      </div>
+                      
+                      <div class="mySlides fade">
+                        <div class="numbertext">3 / 6</div>
+                        <img src="images/picture4.jpg" style="width:100%">
+                        <div class="text">Our Product gallery slideshow</div>
+                      </div>
+                    </div>
+                    <br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>  
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+        </main>
+            
+            <footer>
+                &copy; Copyright 2022. All Rights Reserved. <br>
+                <a href="mailto:info@delsondryers.com">Request information</a><br>
+                kaviya vijayakumar &nbsp;&nbsp; C0805215
+            </footer>
+        </div>
+    </body>
+
+    </html>
